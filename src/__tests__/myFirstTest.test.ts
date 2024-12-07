@@ -17,3 +17,9 @@ test("returns object with name and age", () => {
     age: expect.any(Number),
   });
 });
+
+test("working with array", () => {
+  const names = ["bishal", "bijay", "hari"];
+
+  expect(names).toMatch(expect.any(String));
+});
